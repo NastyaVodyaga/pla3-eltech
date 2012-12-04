@@ -82,7 +82,8 @@ int main(int argc, char*argv[]){
             type=decode;
         }
     }
-    if(key = atoi(argv[i]))
+    if(is_int(argv[i]));
+    key = atoi(argv[i]);
     {
         if (key < 1)
         {
